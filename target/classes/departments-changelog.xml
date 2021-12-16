@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet author="AMelchuk@integrity-solutions.ru" id="entity-and-rest-1.0-SNAPSHOT">
+
+        <createTable tableName="DEPARTMENTS">
+            <column name="ID" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DESCRIPTION" type="VARCHAR(255)">
+            </column>
+            <column name="REALM_ID" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DATE_CREATED" type="TIMESTAMP">
+            </column>
+            <column name="DATE_CREATED" type="TIMESTAMP">
+            </column>
+        </createTable>
+
+        <addPrimaryKey
+            constraintName="PK_DEPARTMENTS"
+            tableName="DEPARTMENTS"
+            columnNames="ID"
+        />
+
+    </changeSet>
+    
+</databaseChangeLog>

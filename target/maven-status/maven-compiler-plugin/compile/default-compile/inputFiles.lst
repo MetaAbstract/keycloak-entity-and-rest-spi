@@ -1,0 +1,13 @@
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/jpa/Department.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/spi/DepartmentServiceProviderFactory.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/spi/DepartmentService.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/spi/DepartmentSpi.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/jpa/DepartmentJpaEntityProvider.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/jpa/DepartmentJpaEntityProviderFactory.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/spi/impl/DepartmentServiceImpl.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/spi/impl/DepartmentServiceProviderFactoryImpl.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/DepartmentRepresentation.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/rest/DepartmentRestResource.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/rest/DepartmentRealmResourceProviderFactory.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/rest/DepartmentResource.java
+/home/amelchuk/Data/luxoft/projects/sberwork/learn_tasks/PlatformV/IAM.Keycloack.SE/entity-and-rest/src/main/java/com/luxoft/amelchuk/keycloak/rest/DepartmentRealmResourceProvider.java

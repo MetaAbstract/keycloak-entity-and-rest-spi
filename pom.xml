@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.luxoft.amelchuk.keycloak</groupId>
+    <artifactId>entity-and-rest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-core</artifactId>
+            <version>15.0.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-services</artifactId>
+            <version>15.0.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-server-spi</artifactId>
+            <version>15.0.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-server-spi-private</artifactId>
+            <version>15.0.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-model-jpa</artifactId>
+            <version>15.0.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.spec.javax.ws.rs</groupId>
+            <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
+            <version>2.0.1.Final</version>
+        </dependency>
+<!--        ADDED COMPONENTS -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.liquibase</groupId>-->
+<!--            <artifactId>liquibase-maven-plugin</artifactId>-->
+<!--            <version>4.6.1</version>-->
+<!--        </dependency>-->
+<!--&lt;!&ndash;        compile 'org.liquibase.ext:liquibase-hibernate5:3.6'&ndash;&gt;-->
+<!--                <dependency>-->
+<!--                    <groupId>org.liquibase.ext</groupId>-->
+<!--                    <artifactId>liquibase-hibernate5</artifactId>-->
+<!--                    <version>3.6</version>-->
+<!--                </dependency>-->
+<!--&lt;!&ndash;        compile group: 'org.springframework', name: 'spring-beans', version: '4.3.7.RELEASE'&ndash;&gt;-->
+<!--                <dependency>-->
+<!--                    <groupId>org.springframework</groupId>-->
+<!--                    <artifactId>spring-beans</artifactId>-->
+<!--                    <version>4.3.7.RELEASE</version>-->
+<!--                </dependency>-->
+<!--&lt;!&ndash;        compile group: 'org.springframework', name: 'spring-orm', version: '4.3.7.RELEASE'&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-orm</artifactId>-->
+<!--            <version>4.3.7.RELEASE</version>-->
+<!--        </dependency>-->
+<!--&lt;!&ndash;        compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.7.RELEASE'&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-jdbc</artifactId>-->
+<!--            <version>4.3.7.RELEASE</version>-->
+<!--        </dependency>-->
+<!--&lt;!&ndash;        compile group: 'org.springframework', name: 'spring-context', version: '4.3.7.RELEASE'        &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-context</artifactId>-->
+<!--            <version>4.3.7.RELEASE</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.h2database</groupId>-->
+<!--            <artifactId>h2</artifactId>-->
+<!--            <version>1.4.200</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.maven.plugins</groupId>-->
+<!--            <artifactId>maven-resources-plugin</artifactId>-->
+<!--            <version>3.2.0</version>-->
+<!--        </dependency>-->
+    </dependencies>
+
+<!--    -->
+<!--        <build>-->
+<!--            <plugins>-->
+<!--                <plugin>-->
+<!--                    <groupId>org.liquibase</groupId>-->
+<!--                    <artifactId>liquibase-maven-plugin</artifactId>-->
+<!--                    <version>4.6.1</version>-->
+<!--                    <configuration>-->
+<!--                        <propertyFile>liquibase.properties</propertyFile>-->
+<!--                    </configuration>-->
+<!--                    <dependencies>-->
+<!--                        <dependency>-->
+<!--                            <groupId>com.h2database</groupId>-->
+<!--                            <artifactId>h2</artifactId>-->
+<!--                            <version>1.4.200</version>-->
+<!--&lt;!&ndash;                            <scope>test</scope>&ndash;&gt;-->
+<!--                        </dependency>-->
+<!--                    </dependencies>-->
+<!--                </plugin>-->
+<!--            </plugins>-->
+<!--        </build>-->
+
+
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--&lt;!&ndash;                <groupId>org.apache.maven.plugins</groupId>&ndash;&gt;-->
+<!--                <artifactId>maven-resources-plugin</artifactId>-->
+<!--                <version>3.2.0</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>copy-resources</id>-->
+<!--                        &lt;!&ndash; here the phase you need &ndash;&gt;-->
+<!--                        <phase>validate</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>copy-resources</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <outputDirectory>${basedir}/target/classes/META-INF</outputDirectory>-->
+<!--                            <resources>-->
+<!--                                <resource>-->
+<!--                                    <directory>${basedir}/src/main/resources/services</directory>-->
+<!--                                    <filtering>true</filtering>-->
+<!--                                </resource>-->
+<!--&lt;!&ndash;                                <includes>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <include>${basedir}/src/main/resources/basedir.txt</include>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </includes>&ndash;&gt;-->
+<!--                            </resources>-->
+
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
+</project>
